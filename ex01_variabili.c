@@ -11,7 +11,7 @@ int main()
   printf("a: %c\n", a);
   printf("b: %f\n", b); // indicazione float = %f
   printf("c: %f\n", c);
-  printf("c: %lf\n", c); // indicazione double = %lf - per determinare il numero di decimali (n) = %.(n)lf
+  printf("c: %lf\n", c); // indicazione double = %lf - per determinare il numero di decimali (n) = %.(n)lf es: n=14 -> %.14lf
   
   printf("a: %d\n b: %f\n", a, b);
 
