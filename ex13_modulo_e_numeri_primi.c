@@ -1,4 +1,4 @@
-#include <stdio.h> // modulo si scrive con % e indica il resto della divisione - es: 5%2 = 1 
+#include <stdio.h> // modulo si scrive con % e indica il resto della divisione - es: 5%2 = 1  -- come si completa???? :(((
 
 
 int main()
