@@ -14,4 +14,5 @@ int main()
   printf("diff.: %d\n", differenza);
   printf("divisione: %f\n", b/c);
   printf("moltiplicaz.: %.12lf\n", e*f);
+  printf("somma: %.15lf\n", e+d);
 }
