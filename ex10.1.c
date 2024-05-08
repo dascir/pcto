@@ -22,28 +22,20 @@ int main()
         }
         else if (a==b || b==c || a==c)
         {
-            printf(" isoscele\n");
+            printf(" isoscele");
         }
-        
         else
         {
             printf(" scaleno");
-            if (d=e+f)
-            {
-                printf(" rettangolo\n");
-            }
-            else if (e=f+d)
-            {
-                printf(" rettangolo\n");
-            }
-            else if (f=e+d)
-            {
-                printf(" rettangolo\n");
-            }
-            else
-            {
-                printf(" \n");
-            }
+        }
+        
+        if (d==e+f||e==f+d||f==e+d)
+        {
+            printf(" rettangolo\n");
+        }
+        else
+        {
+            printf("\n");
         }
     }
     else
